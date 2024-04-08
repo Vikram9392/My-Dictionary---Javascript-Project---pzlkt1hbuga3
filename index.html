@@ -1,1 +1,29 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dictionary</title>
+</head>
+<body>
+    <nav>
+        <ul id="navlist">
+            <li>My Dictionary App</li>
+            <li id="history">HISTORY</li>
+        </ul>
+    </nav>
+    <section>
+        <div id="searchPage">
+            <form id="searchForm">
+                <input type="text" id="search" name="search" placeholder="Search the word"/>
+                <button type="submit">Find</button>
+            </form>
+            <div id="card"></div>
+        </div>
+        <div id="cards"></div>
+    </section>
+    <script src="App.js"></script>
+</body>
+</html>
